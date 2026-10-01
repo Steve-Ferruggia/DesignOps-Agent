@@ -1,0 +1,63 @@
+{
+  "_schema_version": "1.0",
+  "_description": "Lightweight memory store for the DesignOps Triage Agent. Updated after each run.",
+  "_last_updated": "2025-01-20T00:00:00Z",
+
+  "run_log": [
+    {
+      "run_id": "run_001",
+      "timestamp": "2025-01-20T00:00:00Z",
+      "jira_key": "SEED",
+      "status": "initialized",
+      "brief_path": null,
+      "recommended_designer_id": null,
+      "gate_decision": null
+    }
+  ],
+
+  "memory_schema": {
+    "designer_roster_path": "memory/designer_roster.json",
+    "request_history_path": "memory/request_history.json",
+    "run_log_path": "memory/agent_memory.json",
+
+    "designer_fields": {
+      "id": "string — unique designer ID (D001…)",
+      "name": "string",
+      "email": "string",
+      "skills": "array of strings: UX | VD | UX/R | MM",
+      "level": "Junior | Mid | Senior",
+      "domains": "array of domain/sponsor names this designer has worked with",
+      "embed_eligible": "boolean — can this designer embed with a product team?",
+      "current_load_pct": "integer 0–100 — current committed allocation",
+      "available_pct_next_4_weeks": "array[4] of floats — fractional FTE available each week (0.0–1.0)",
+      "active_assignments": "array of Jira keys currently staffed",
+      "past_assignments": "array of Jira keys historically completed",
+      "notes": "string — free text notes for the Iteration Manager"
+    },
+
+    "request_history_fields": {
+      "jira_key": "string",
+      "domain": "string",
+      "description": "string",
+      "skillset": "string",
+      "size": "string e.g. '50%'",
+      "timing": "string",
+      "embed": "boolean",
+      "days_to_staff": "integer — business days from Added to Staffed date",
+      "assigned_to": "designer ID or null",
+      "outcome": "pending | staffed | delivered | will_not_staff",
+      "complexity": "low | medium | high",
+      "notes": "string"
+    },
+
+    "run_log_fields": {
+      "run_id": "string — sequential run identifier",
+      "timestamp": "ISO 8601",
+      "jira_key": "string or null",
+      "status": "success | needs_info | on_hold | error",
+      "brief_path": "relative path to generated brief",
+      "recommended_designer_id": "designer ID or null",
+      "gate_decision": "APPROVED FOR ASSIGNMENT | NEEDS INFO | ON HOLD | null"
+    }
+  }
+}

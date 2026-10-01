@@ -1,0 +1,168 @@
+{
+  "past_requests": [
+    {
+      "jira_key": "CD-6547",
+      "domain": "Fletcher",
+      "description": "New Hire Welcome Kit",
+      "skillset": "VD",
+      "size": "50%",
+      "timing": "6-8 weeks",
+      "embed": false,
+      "days_to_staff": 1,
+      "assigned_to": "D001",
+      "outcome": "delivered",
+      "complexity": "low",
+      "notes": "Clean scope, single designer, no embed needed"
+    },
+    {
+      "jira_key": "CD-6558",
+      "domain": "Fletcher",
+      "description": "Q3 All Hands Part 1 Slack Promotion",
+      "skillset": "VD",
+      "size": "25%",
+      "timing": "1-2 days",
+      "embed": false,
+      "days_to_staff": 1,
+      "assigned_to": "D008",
+      "outcome": "delivered",
+      "complexity": "low",
+      "notes": "Quick-turn; Kristina handled same-day"
+    },
+    {
+      "jira_key": "CD-6405",
+      "domain": "Lyteson",
+      "description": "Operating model visualization",
+      "skillset": "VD",
+      "size": "100%",
+      "timing": "1 day",
+      "embed": false,
+      "days_to_staff": 1,
+      "assigned_to": "D003",
+      "outcome": "delivered",
+      "complexity": "low",
+      "notes": "Dataviz asset update; Yoonju fast turnaround"
+    },
+    {
+      "jira_key": "CD-6600",
+      "domain": "Hayes",
+      "description": "ICFS design review and guidance session",
+      "skillset": "UX/VD",
+      "size": "100%",
+      "timing": "1 day",
+      "embed": false,
+      "days_to_staff": 5,
+      "assigned_to": "D009",
+      "outcome": "delivered",
+      "complexity": "low",
+      "notes": "UX preferred or VD with UX skills; Maddy matched"
+    },
+    {
+      "jira_key": "CD-6621",
+      "domain": "Wisnewski",
+      "description": "CIO Global Onboarding Presentation Template",
+      "skillset": "VD",
+      "size": "100%",
+      "timing": "1 day",
+      "embed": false,
+      "days_to_staff": 2,
+      "assigned_to": "D002",
+      "outcome": "delivered",
+      "complexity": "low",
+      "notes": "Single deliverable; Janiel turned around quickly"
+    },
+    {
+      "jira_key": "CD-5468",
+      "domain": "Fourie",
+      "description": "Mail@IBM: Review transition to Verse on Prem",
+      "skillset": "UX/R",
+      "size": "50%",
+      "timing": "2 months",
+      "embed": true,
+      "days_to_staff": 46,
+      "assigned_to": "D006",
+      "outcome": "delivered",
+      "complexity": "high",
+      "notes": "Long wait; embed with product team; Robert Medl strong fit"
+    },
+    {
+      "jira_key": "CD-19393",
+      "domain": "Pasquale",
+      "description": "UXR Code42 User Survey",
+      "skillset": "UX/R",
+      "size": "50%",
+      "timing": "4-6 weeks",
+      "embed": false,
+      "days_to_staff": 10,
+      "assigned_to": "D006",
+      "outcome": "staffed",
+      "complexity": "medium",
+      "notes": "Robert matched quickly; good domain alignment"
+    },
+    {
+      "jira_key": "CD-19462",
+      "domain": "South",
+      "description": "VD for Key Plays Section on Cybersecurity Pub Page",
+      "skillset": "VD",
+      "size": "100%",
+      "timing": "1 day",
+      "embed": false,
+      "days_to_staff": 6,
+      "assigned_to": "D003",
+      "outcome": "staffed",
+      "complexity": "low",
+      "notes": "Tight deadline 1/23; Yoonju assigned 1/18"
+    },
+    {
+      "jira_key": "CD-19431",
+      "domain": "All CIO",
+      "description": "RDS VD - Update CIO Hub Leaders Graphic",
+      "skillset": "VD",
+      "size": "100%",
+      "timing": "1 day",
+      "embed": false,
+      "days_to_staff": 10,
+      "assigned_to": "D004",
+      "outcome": "staffed",
+      "complexity": "low",
+      "notes": "Infographic update; Tykiera matched on domain knowledge"
+    }
+  ],
+  "customer_patterns": {
+    "Baroni": {
+      "typical_skillsets": ["VD", "UX", "UX/R"],
+      "typical_embed": true,
+      "avg_days_to_staff": 18,
+      "recurring_notes": "Often long-duration engagements; scopes sometimes under-specified at intake"
+    },
+    "Pasquale": {
+      "typical_skillsets": ["UX", "UX/R"],
+      "typical_embed": false,
+      "avg_days_to_staff": 10,
+      "recurring_notes": "Well-scoped requests; good partnership with DesignOps"
+    },
+    "South": {
+      "typical_skillsets": ["VD"],
+      "typical_embed": false,
+      "avg_days_to_staff": 6,
+      "recurring_notes": "Quick-turn VD; tight deadlines are the norm"
+    },
+    "All CIO": {
+      "typical_skillsets": ["VD", "MM"],
+      "typical_embed": false,
+      "avg_days_to_staff": 8,
+      "recurring_notes": "Executive comms; infographics; high visibility"
+    },
+    "Fletcher": {
+      "typical_skillsets": ["VD"],
+      "typical_embed": false,
+      "avg_days_to_staff": 1,
+      "recurring_notes": "Same-day turnaround expected; always VD"
+    },
+    "Hayes": {
+      "typical_skillsets": ["UX", "UX/VD"],
+      "typical_embed": false,
+      "avg_days_to_staff": 5,
+      "recurring_notes": "Technical requests; prefer UX with systems background"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+Domain: South
+Jira: CD-19462
+VD for 'Key Plays' Section on Cybersecurity Pub Page
+
+Matt would like VD assistance pulling together security component images from
+the CIO design library and displaying them in the Key Plays section of the
+main Cybersecurity landing page (https://w3.ibm.com/w3publisher/cio-cybersecurity-assurance).
+New VD images are likely not required but possibly some light creation work.
+The team is ready to go now.
+
+Size: 100% for 1 day
+No embed needed.
+Due date: January 23rd.

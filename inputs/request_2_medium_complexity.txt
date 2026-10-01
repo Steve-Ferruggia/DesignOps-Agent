@@ -1,0 +1,19 @@
+Domain: Baroni
+Jira: CD-19194
+0.5 UX - M&A Pro Lessons Learned Tool - 3 Months
+
+This assignment is to support the creation of a new lessons learned tool,
+a component under the existing M&A Pro tool. The chatbot capability will
+act as a search engine on a new database of M&A lessons learned for both
+Software and Consulting, offering easier access and sharing within the community.
+
+Epic CD-19181 has full project details. The team wants someone embedded for
+the duration to stay close to the product iteration cycle.
+
+Size: 50% FTE
+Duration: 3 months (looking to start early January 2023)
+Embed: Yes, team is embedding with the M&A Pro product squad
+Skillset: UX design (interaction design + light systems thinking)
+Team is ready to receive a designer.
+
+Additional context: https://ibm.ent.box.com/file/1084975908662

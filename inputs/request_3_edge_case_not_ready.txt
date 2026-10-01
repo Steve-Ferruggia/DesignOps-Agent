@@ -1,0 +1,12 @@
+We need a designer for the Executive Compensation Planner project.
+
+The front end is being migrated off Notes and onto the cloud. They want
+micro services between the front end and the back end (which stays on a
+mainframe). The previous designer left IBM but there are existing designs
+available. The new tool will replace multiple Notes databases and focus
+on a self-service model. Designer should have knowledge of data visualization
+as a large amount of data needs to fit on each screen.
+
+The team is not ready for a designer yet. We'll check back in January 2023.
+
+Jira: CD-17735
