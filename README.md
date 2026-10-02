@@ -5,8 +5,6 @@ a ready-for-assignment **Design Support Brief** — complete with a complexity
 classification, effort estimate, designer match, and a clear
 `APPROVED FOR ASSIGNMENT | NEEDS INFO | ON HOLD` gate decision.
 
-Built as a submission for the Pindrop PM AI Enablement take-home project.
-
 ---
 
 ## The Problem
